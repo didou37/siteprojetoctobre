@@ -1,0 +1,31 @@
+
+html,body,div {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family:Verdana, Arial;
+	font-size:14px;
+	background:#f9f9f9;
+}
+
+header{
+	background-color:#f9f9f9;
+	height:150px;
+	top:0px;
+}
+h1{
+	color:red;
+	margin-top:-100px;
+	margin-left:500px;
+}
+#menu {
+  position: fixed;
+  right: 50px;
+  top: 50%;
+  width: 8px;
+}
+
+li{
+	list-style-type:none;
+}
