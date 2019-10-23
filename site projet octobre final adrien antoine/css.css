@@ -1,0 +1,108 @@
+
+html,body,div{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#dcd9d8;
+}
+
+header{
+	background-color:#a7fffc;
+	height:200px;
+	top:0%;
+}
+h1{
+	
+	margin-top:-12%;
+	margin-left:33%;
+}
+#menufixe{
+  position: fixed;
+  right: 50px;
+  top: 50%;
+  width: 8px;
+}
+
+li{
+	list-style-type:none;
+}
+
+#mail{
+	margin-left:90%;
+	margin-bottom:99%;
+}
+
+#photogauche{
+	margin-left:0%;
+	top:0%
+}
+
+h2{
+	margin-left:20%;
+	margin-right:10%;
+}
+
+td {
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+	margin-left:25px;
+}
+
+.contener_slideshow
+{
+  width:610px;
+  height:211px;
+  overflow: hidden;
+  position: relative;
+}
+.slid_1, .slid_2, .slid_3, .slid_4, .slid_5, .slid_6, .slid_7, .slid_8
+{
+  position: absolute;
+  width:610px;
+  height:211px;
+}
+.slid_1{left: 0;}
+.slid_2{left: 610px;}
+.slid_3{left: 1220px;}
+.slid_4{left: 1830px;}
+.slid_5{left: 2440px;}
+.slid_6{left: 3050px;}
+.slid_7{left: 3660px;}
+.slid_8{left: 4270px;}
+.contener_slide
+{
+  width: 4200px;
+  height: 211px;
+  left:0px;
+  position: absolute;
+  animation-duration: 32s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+
+@keyframes anim_slide 
+{
+  0% {left:0px;}
+  6% {left:0px;}
+  13% {left:-610px;}
+  19% {left:-610px;}
+  25% {left:-1220px;}
+  31% {left:-1220px;}
+  38% {left:-1830px;}
+  44% {left:-1830px;}
+  50% {left:-2440px;}
+  56% {left:-2440px;}
+  63% {left:-3050px;}
+  69% {left:-3050px;}
+  75% {left:-3660px;}
+  81% {left:-3660px;}
+  88% {left:-4270px;}
+  94% {left:-4270px;}
+}
+#centreimage{
+	margin-left:30%;
+}
